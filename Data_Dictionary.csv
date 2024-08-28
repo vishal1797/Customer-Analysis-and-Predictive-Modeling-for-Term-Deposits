@@ -1,0 +1,25 @@
+Variable,Description,Data Type
+Customer_number,Unique Customer Identification number,ID
+Acc_creation_date,Account opening date,Date
+Insurance,Has the customer taken insurance?,Categorical
+balance,,Numeric
+housing,Has the customer taken housing loan?,Categorical
+loan,Has the customer taken personal loan? ,Categorical
+contact,Contact communication type,Categorical
+duration,Duration of call with the customer for Term loan ,Numeric
+campaign,Number of contacts performed during this campaign and for this client ,Numeric
+last_contact_day,"Number of days that passed by after the client was last contacted from a previous campaign.
+-1 implies the customer was not contacted.",Numeric
+previous,Number of contacts performed before this campaign and for this client ,Categorical
+poutcome,Outcome of the previous marketing campaign,Categorical
+Term Deposit,Has the customer subscribed a term deposit (fixed deposit)? ,Target (categorical)
+Count_Txn,Number of Transactions Done by the customer,Numeric
+,,
+,,
+Customer_number,Unique Customer Identification number,ID
+age,Age of customer in years,Numeric
+job,Type of job the customer has,Categorical
+marital,Marital status of the customer,Categorical
+education,Highest education level of customer,Categorical
+Annual Income,Annual income of the customer,Numeric
+Gender,Gender of the customer,Categorical
